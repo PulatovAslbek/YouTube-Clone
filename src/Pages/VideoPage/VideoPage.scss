@@ -1,0 +1,53 @@
+.video-player-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 0 0 1%;
+    margin-top: 40px;
+
+    &__searched-themes {
+        min-width: 55%;
+    }
+
+}
+.footer-navbar {
+    display: none;
+}
+
+.next-video-player {
+    width: 50%;
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 475px) {
+    
+
+    .video-player-main{
+        flex-direction: column;
+        padding: 0;
+        
+    margin-top: 10px;
+   
+
+    &__searched-themes {
+        width: 100%;
+    } 
+    }
+    hr {
+        display: none;
+    }
+
+    .next-video-player {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .footer-navbar {
+        display: block;
+        width: 100%;
+        border-top: 2px solid #c2c2c2;
+        padding-top: 10px;
+        margin-top: 30px;
+    }
+  }
