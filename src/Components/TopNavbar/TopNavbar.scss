@@ -34,7 +34,8 @@
 
     }
 
-    &__search-input {
+    &__search-input {   
+        position: relative;
         min-width: 600px;
         color: black;
         min-height: 40px;
@@ -51,8 +52,6 @@
         position: absolute;
         top: 35px;
         right: 570px;
-        display: flex;
-        align-items: center;
     }
 
 
